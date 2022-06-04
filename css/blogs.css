@@ -1,0 +1,68 @@
+/* start blogs */
+.blogs {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+}
+.blogs .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.blogs .content .box {
+    background-color: var(--backgroun-color);
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: var(--main-shadow);
+    text-align: center;
+}
+.blogs .content .box .image-holder {
+    overflow: hidden;
+    height: 250px;
+}
+.blogs .content .box .image-holder img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: var(--main-transition);
+}
+.blogs .content .box:hover .image-holder img {
+    transform: scale(1.2);
+}
+.blogs .content .box .info .date {
+    background-color: #0d0d0d;
+    border-radius: 6px;
+    padding: 15px;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: auto;
+    position: relative;
+    top: -20px;
+}
+.blogs .content .box .info .date a {
+    color: var(--color-2);
+    transition: var(--main-transition);
+}
+.blogs .content .box .info .date a:hover {
+    color: var(--color-1);
+}
+.blogs .content .box .info .date a i {
+    color: var(--color-1);
+    margin-right: 10px;
+}
+.blogs .content .box .info h3 {
+    color: var(--color-2);
+    font-weight: 500;
+    font-size: 22px;
+}
+.blogs .content .box .info p {
+    color: var(--p-color);
+    line-height: 1.8;
+    margin: 20px 0;
+}
+.blogs .content .box .info a {
+    margin: auto;
+}
+/* end blogs */

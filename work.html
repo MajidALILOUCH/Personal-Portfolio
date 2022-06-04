@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio">
+    <title>Work | Personal Portfolio</title>
+    <!-- normalize file css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome library css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- aos library css  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <!-- globalstyles css -->
+    <link rel="stylesheet" href="css/globalstyles.css">
+    <!-- our components css  -->
+    <link rel="stylesheet" href="css/components.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/work.css">
+</head>
+<body>
+    <!-- start nav -->
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i><span>Home</span></a></li>
+            <li><a href="about.html"><i class="fas fa-user"></i><span>About</span></a></li>
+            <li><a href="work.html"><i class="fas fa-briefcase"></i><span>Work</span></a></li>
+            <li><a href="blogs.html"><i class="fas fa-blog"></i><span>Blogs</span></a></li>
+            <li><a href="contact.html"><i class="fas fa-address-book"></i><span>Contact</span></a></li>
+        </ul>
+    </nav>
+    <!-- end nav -->
+    <!-- start work -->
+    <div class="work">
+        <div class="container" data-aos="fade-up">
+            <h2 class="main-title"><span>my</span> work</h2>
+            <div class="content">
+                <div class="box">
+                    <img src="images/img-1.jpg" alt="img">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3>project 01</h3>
+                            <p>
+                                Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Distinctio, Praesentium.
+                            </p>
+                            <a href="#0">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/img-2.jpg" alt="img">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3>project 02</h3>
+                            <p>
+                                Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Distinctio, Praesentium.
+                            </p>
+                            <a href="#0">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/img-3.jpg" alt="img">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3>project 03</h3>
+                            <p>
+                                Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Distinctio, Praesentium.
+                            </p>
+                            <a href="#0">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/img-4.jpg" alt="img">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3>project 04</h3>
+                            <p>
+                                Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Distinctio, Praesentium.
+                            </p>
+                            <a href="#0">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/img-5.jpg" alt="img">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3>project 05</h3>
+                            <p>
+                                Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Distinctio, Praesentium.
+                            </p>
+                            <a href="#0">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/img-6.jpg" alt="img">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3>project 06</h3>
+                            <p>
+                                Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Distinctio, Praesentium.
+                            </p>
+                            <a href="#0">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#0" class="load-more btn">load more<i class="fas fa-redo"></i></a>
+        </div>
+    </div>
+    <!-- end work -->
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200, // offset (in px) from the original trigger point
+            delay: 100, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+        });
+    </script>
+</body>
+</html>
