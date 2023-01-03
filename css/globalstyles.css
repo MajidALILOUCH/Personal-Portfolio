@@ -1,72 +1,72 @@
 /* start variables */
 :root {
-    --color-1: crimson;
-	--color-2: #fff;
-    --p-color: #aaa;
-	--backgroun-color: #1a1a1a;
-    --main-transition: 0.3s;
-    --main-padding-top: 60px;
-    --main-padding-bottom: 60px;
-    --main-shadow: 0 0.5rem 1rem rgb(0 0 0 / 70%);
+  --color-1: purple;
+  --color-2: #fff;
+  --p-color: #aaa;
+  --backgroun-color: #1a1a1a;
+  --main-transition: 0.3s;
+  --main-padding-top: 60px;
+  --main-padding-bottom: 60px;
+  --main-shadow: 0 0.5rem 1rem rgb(0 0 0 / 70%);
 }
 /* end variables */
 /* start global rules */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 html::-webkit-scrollbar {
-    width: 12px;
+  width: 12px;
 }
 html::-webkit-scrollbar-track {
-    background: #0d0d0d;
+  background: #0d0d0d;
 }
 html::-webkit-scrollbar-thumb {
-    background: var(--color-1);
-    border-radius: 5rem;
+  background: var(--color-1);
+  border-radius: 5rem;
 }
 body {
-    background: #0d0d0d;
-    font-family: 'Poppins', sans-serif;
-    padding-bottom: 73px;
+  background: #0d0d0d;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 73px;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Small */
 @media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
+  .container {
+    width: 750px;
+  }
 }
 /* Medium */
 @media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
+  .container {
+    width: 970px;
+  }
 }
 /* Large */
 @media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
+  .container {
+    width: 1170px;
+  }
 }
 /* end global rules */
